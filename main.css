@@ -1,0 +1,98 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	background-color: #444; /* #444444 */
+	border: 5px solid #787878;
+
+	margin: 50px;
+
+	padding: 50px;
+
+	/*
+		Other ways to set margin
+		margin: X; // all 4 to X
+		margin-top: X; 
+		...
+		margin: x Y; // X top, bottom margin
+					 // Y left, right margin
+
+		margin: X Y Z;ss
+	*/
+} 
+
+.main-title {
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+	font-size: 3rem;
+	font-family: Georgia, serif;
+	font-weight: 300;
+
+	margin-bottom: 0;
+}
+
+
+.nav {
+	border-bottom: 2px solid #787878;
+
+	padding: 25px 0;
+
+	text-align: center;
+}
+
+.bottom-nav {
+	border-bottom: none;
+	border-top: 2px solid #787878;
+}
+
+.menu-link {
+	font-weight: bold;
+	color: #33b688;
+	font-size: 1.5rem;
+	font-family: Arial, sans-serif;
+
+	display: inline-block;
+	line-height: 14px;
+	border-right: 2px solid #787878;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.menu-link:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.menu-active {
+	color: #fff;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.para-title {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+.para {
+	color: #fff;
+	font-size: 1.75rem;
+}
+
+.img {
+    float: right;
+    margin: 0 0 10px 10px;
+    padding:5px;
+   	border:2px solid #787878;
+}
+
+
+
+
+
+
